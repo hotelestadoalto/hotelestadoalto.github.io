@@ -26,8 +26,7 @@ if(sBrowser=="Mozilla Firefox"){
     $imglema.style.flexBasis = "40%";
     $imagenlema.style.width = "100%";
     $suscripcionnbtn.style.width = "90%"
-    if(pagewidth<400){
-        console.log("menor");
+    if(pagewidth<600){
         $imglema.style.display = "none";
         $textoLema.style.flexBasis = "100%"
     }
