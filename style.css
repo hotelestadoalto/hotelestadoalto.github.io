@@ -465,6 +465,14 @@ body{
 }
 
 @media screen and (max-width: 912px) {
+    
+    .imglema{
+        display: none;
+    }
+    
+    .textolema{
+        flex-basis: 100%; 
+    }
 
     .capas1{
         justify-content: center;
