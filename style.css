@@ -153,9 +153,13 @@ body{
     font-size: 25px;
     padding: 10px;
     background-color: #e1c763;
-    color: #fff;
     border-radius: 5%;
     cursor: pointer;
+}
+
+#reservarbtn a{
+    color: #fff;
+    text-decoration: none;
 }
 
 .seccion2{
