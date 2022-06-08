@@ -324,7 +324,6 @@ body{
     grid-auto-rows: auto;
 }
 
-#emailinput::
 .imgg{
     object-fit: cover;
     width: 100%;
