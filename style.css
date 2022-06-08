@@ -1,0 +1,578 @@
+*{
+    font-family: 'Montserrat', serif;
+}
+
+body{
+    background-color: rgb(14, 14, 14);
+    color: #fff;
+}
+
+.navResponsive{
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 5px;
+    align-items: center;
+    height: 30px;
+    padding: 10px;
+}
+.navResponsive span{
+    font-size: 20px;
+}
+
+.fa-bars{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(34, 34, 34);
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.navDatos, .navContacto{
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.navTelefono{
+    border-right: 2px solid #fff;
+}
+
+.navTelefono, .navCorreo{
+    padding: 5px;
+}
+
+.navIconos{
+    font-size: 20px;
+    padding: 0px 5px;
+}
+
+.navContacto{
+    display: flex;
+    align-items: center;
+}
+
+.navReservar{
+    margin: 0px 10px;
+}
+
+.navRedes a{
+    color: #fff;
+}
+
+#reservar{
+    background-color: #e1c763;
+    width: 30vh;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#reservar a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.seccion1{
+    height: 100vh;
+    width: 100%;
+    background-image: url(imgs/fondohotel.jpg);
+    background-size: cover;
+}
+
+.capas1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);    
+}
+
+.logo{
+    width: 20%;
+    height: 50%;
+}
+
+#logohotel{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.barra{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: sticky;
+}
+
+.barraAccesos{
+    margin-top: 20px;
+}
+
+.accesos{
+    margin: 10px;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.accesos:hover{
+    color: #e1c763;
+    transition: color, .3s;
+}
+
+.accesos:focus{
+    color: #e1c763;
+    text-decoration: underline;
+}
+
+.titulo{
+    color: rgba(255, 255, 255, 0.842);
+    font-size: 3em;
+    font-weight: 1;
+    align-self: center;
+}
+
+.reserva{
+    height: 200px;
+    align-self: center;
+    display: flex;
+    align-items: center;
+}
+
+#reservarbtn{
+    font-size: 25px;
+    padding: 10px;
+    background-color: #e1c763;
+    color: #fff;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.seccion2{
+    margin-top: 50px;
+    height: 100vh;
+    width: 100%;
+}
+
+.serviciosIconos2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.serviciosIconos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+.serviciosIconos i{
+    color: #e1c763;
+    font-size: 25px;
+}
+
+.hotels2{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.textoHotel{
+    max-width: 400px;
+    padding-right: 50px;
+}
+
+.imagenesHotel{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-rows: 70% 30%;  
+    border-radius: 10%; 
+    height: 80vh;
+}
+
+.imgsh{
+    object-fit: cover;
+    width: 96%;
+    height: 96%;
+    border-radius: 5%;
+}
+
+.img1h{
+    grid-column: 1 / 4;
+}
+
+.img4h{
+    width: 92%;
+}
+
+#ubicacionbtn{
+    padding: 10px;
+    background-color: #e1c763;
+    border-radius: 5%;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#ubicacionbtn a{
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.seccion3{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.habitaciones{
+    display: flex;
+    flex-direction: row;
+    width: 85vw;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imgha{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+
+.precios{
+    font-size: 20px;
+    color: #e1c763;
+}
+
+.habitacion{
+    padding: 10px;
+    max-width: 360px;
+}
+
+.textos3{
+    padding: 15px;
+}
+
+.seccion4{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    height: 100vh;
+}
+
+.capas4{
+    height: 60%;
+    background-image: url(imgs/armonia.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.textocapa4{
+    padding: 20px;
+    width: 30%;
+    color: #fff;
+    font-size: 20px;
+}
+
+.spaa{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+
+.spa{
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iconospa{
+    color: #e1c763;
+    font-size: 50px;
+}
+
+.galeria{
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 20%));
+    grid-template-rows: auto auto;
+    grid-auto-rows: auto;
+}
+
+.imgg{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#emailinput{
+    background-color: transparent;
+    color: #fff;
+}
+
+#emailinput::placeholder{
+    color: #fff;
+}
+
+.lema{
+    height: 60vh;
+    width: 100%;
+    background-image: url(imgs/fondolema.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.capalema{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0.836);
+    justify-content: space-around;
+}
+
+.imagenlema{
+    object-fit: cover;
+    width: 100%;
+    height: 90%;
+    margin-top: 20px;
+    border-radius: 5%;
+}
+
+.textolema{
+    flex-basis: 30%;
+    align-self: center;
+    font-size: 17px;
+}
+
+.titulolema{
+    color: #e1c763;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.infofooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.map{
+    width: 400px;
+}
+
+#map{
+    height: 40vh;
+    width: 100%;
+    border-radius: 5%;
+}
+
+.acerca{
+    max-width: 300px;
+}
+
+.logofooter{
+    width: 40%;
+    height: 30%;
+}
+
+.subfooter{
+    height: 50px;
+    background-color: rgb(29, 29, 29);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.mediasub{
+    margin: 10px;
+}
+
+.iconosfo{
+    margin: 5px;
+    font-size: 23px;
+    color: #fff;
+}
+
+#correofo{
+    color: #e1c763;
+}
+
+.suscripcion{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid #e1c763;
+    border-radius: 10px;
+    padding: 10px;
+    width: 80%;
+}
+
+
+
+#suscribir{
+    background-color: transparent;
+}
+
+.correoo{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.correobtn{
+    color: #fff;
+}
+
+.animar{
+    opacity: 0;
+    transition: all .8s ease-out;
+}
+
+@media screen and (max-width: 912px) {
+
+    .capas1{
+        justify-content: center;
+    }
+
+    .seccion1{
+        position: relative;
+        top: 50px;
+    }
+
+    .hotels2{
+        flex-direction: column;
+    }
+
+    .seccion2{
+        height: auto;
+        margin-top: 100px;
+    }
+
+    .imagenesHotel{
+        margin-top: 20px;
+        max-width: 500px;
+    }
+
+    .serviciosIconos{
+        max-width: 100px;
+    }
+
+    .seccion4{
+        height: auto;
+    }
+
+    .spaa{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer{
+        margin-top: 20px;
+        flex-direction: column;
+    }
+
+    .navResponsive{
+        display: flex;
+        position: fixed;
+        height: 50px;
+        width: 100%;
+        box-sizing: border-box;
+        background-color: #000;
+        margin: 0;
+        z-index: 100;
+    }
+
+    .nav{
+        display: none;
+    }
+
+    .barra{
+        flex-direction: column;
+        position: fixed;
+        width: 100%;
+        z-index: 100;
+        background-color: rgba(0, 0, 0, 0.726);
+        align-items: center;
+        top: 50px;
+        display: none;
+        transition: all .3s ease-in-out;
+    }
+    .barraAccesos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .titulo{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .lema{
+        height: 80vh;
+    }
+
+    .imglema{
+        height: 90%;
+        width: 50%;
+    }
+
+    .textolema{
+        font-size: 14px;
+    }
+
+    .map{
+        width: 250px;
+    }
+
+    .galeria{
+        justify-content: center;
+    }
+
+    .subfooter{
+        height: 70px;
+    }
+
+    .titulo{
+        font-size: 2.5em;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .serviciosIconos2{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .serviciosIconos{
+        margin-bottom: 5px;
+    }
+}

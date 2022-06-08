@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylecontact.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/alertify.css">
+    <link rel="stylesheet" href="css/themes/default.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/dc5ebd091c.js" crossorigin="anonymous"></script>
+    <title>Hotel Estado Alto</title>
+</head>
+<body>
+    <div class="navResponsive">
+        <span>Hotel estado alto</span>
+        <i class="fa-solid fa-bars" id="btnResponsive"></i> 
+     </div>
+    <div class="nav">
+        <div class="navDatos">
+            <div class="navTelefono">
+                <i class="fa-solid fa-phone navIconos"></i>
+                <span>+57 3000000000</span>
+            </div>
+            <div class="navCorreo">
+                <i class="fa-solid fa-envelope navIconos"></i>
+                <span>info@hotelestadoalto.com</span>
+            </div>
+        </div>
+        <div class="navContacto">
+            <div class="navRedes">
+                <a href=""><i class="fa-brands fa-instagram navIconos"></i></a>
+                <a href=""><i class="fa-brands fa-facebook navIconos"></i></a>
+            </div>
+            <div class="navReservar">
+                <button id="reservar">Reservar online</button>
+            </div>
+        </div>
+    </div>
+    <div class="seccion-contact-1">
+        <div class="capas1">
+            <div class="barra">
+                <div class="logo">
+                    <img src="imgs/hotelfondo.png" alt="logo hotel estado alto" id="logohotel">
+                </div>
+                <div class="barraAccesos">
+                    <a href="index.html #inicio" class="accesos">Inicio</a>
+                    <a href="index.html #hotel" class="accesos">Hotel</a>
+                    <a href="index.html #habitaciones" class="accesos">Habitaciones</a>
+                    <a href="index.html #servicios" class="accesos">Servicios</a>
+                    <a href="contacto.html" class="accesos">Contacto</a>
+                </div>
+            </div>
+            <div class="titulo">
+                <h1>Hotel Estado Alto</h1>
+            </div>
+        </div>
+        <div class="seccion-contact-2">
+            <div class="datos-contact">
+                <div class="capaContainer">
+                    <h2 class="contact">Contacto</h2>
+                <h3>Hotel Estado Alto</h3>
+                <h3>Medellín, Colombia</h3>
+                <div class="horario">
+                    <h3>Horario</h3>
+                    <span class="horarioo">Nuestro hotel se encuentra disponible las 24 horas del día todos los días!</span>
+                </div>
+                <div class="icons-contact-s2">
+                    <i class="fa-solid fa-phone contacticon"></i>
+                    <span>+57 300000000</span>
+                </div>
+                <div class="icons-contact-s2">
+                    <i class="fa-solid fa-envelope contacticon"></i>
+                    <span>info@hotelestadoalto.com</span>
+                </div>
+                <div class="facebook">
+                    <a href="" class="enlaces"><i class="fa-brands fa-facebook-f contacticon"></i> hotelEstadoAlto</a>
+                </div>
+                <div class="instagram">
+                    <a href="" class="enlaces"><i class="fa-brands fa-instagram contacticon"></i> @hotelestadoalto</a>
+                </div>
+                </div>
+            </div>
+            <div class="formulario">
+                <h2 class="h2">Reserva ahora mismo o envíanos un mensaje</h2>
+                <form action="" name="formulario" class="formu" id="formulario">
+                    <input type="text" placeholder="Nombre*" name="name" id="name">
+                    <input type="email" placeholder="Direción de correo*" name="email" id="email">
+                    <input type="text" placeholder="Número de contacto">
+                    <input type="text" placeholder="Cantidad de personas">
+                    <div class="ingresoo">
+                        <label for="ingreso">Fecha de ingreso</label>
+                        <input type="date" id="ingreso">
+                    </div>
+                    <div class="salidaa">
+                        <label for="salida">Fecha de salida</label>
+                        <input type="date" id="salida">
+                    </div>
+                    <textarea name="mensaje" id="mensaje" cols="15" rows="20" form="formulario" placeholder="Dejános tu mensaje"></textarea>
+                </form>
+                <input type="submit" value="enviar" id="subb">
+            </div>
+        </div>
+        <div id="map" class="map"></div>
+        <div class="footer">
+            <div class="acerca">
+                <h2>Suscríbete</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa error neque quam cum, itaque esse odio, sequi et aut alias dolorem asperiores! Ut facilis nemo, consectetur corrupti omnis laboriosam reiciendis!</p>
+                <div class="suscripcion">
+                    <input type="email" placeholder="Tú correo" id="emailinput">
+                    <button id="suscribir"><i class="fa-solid fa-envelope correoo correobtn"></i></button>
+                </div>
+            </div>
+            <div class="infofooter">
+                <div class="logofooter">
+                    <img src="imgs/hotelfondo.png" alt="logo hotel estado alto" id="logohotel">
+                </div>
+                <span>Medellín Colombia</span>
+                <span>Carrera 2 calle 3-34</span>
+                <span>+57 3000000000</span>
+                <span id="correofo">info@hotelestadoalto.com</span>
+            </div>
+        </div>
+        <div class="subfooter">
+            <div class="mediasub">
+                <a href=""><i class="fa-brands fa-facebook-f iconosfo"></i></a>
+                <a href=""><i class="fa-brands fa-instagram iconosfo"></i></a>
+            </div>
+            <div class="derechos">
+                <span>2022|Todos los derechos reservados|Hotel estado alto</span>
+            </div>
+        </div>
+    </div>
+    
+    <script src="maps.js"></script>
+    <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"></script> 
+    <script src="app.js"></script>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="alertify.js"></script>
+    <script src="verification.js"></script>
+</body>
+
+</html>

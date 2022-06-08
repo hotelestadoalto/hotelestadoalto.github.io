@@ -1,0 +1,215 @@
+.seccion-contact-1{
+    height: 60vh;
+    background-image: url(imgs/hotelfondo3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.capas1{
+    height: 100%;
+}
+
+.titulo{
+    font-size: 1em;
+}
+
+.barra{
+    align-self: flex-start;
+    width: 100%;
+    height: 70%;
+}
+
+.seccion-contact-2{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    margin-top: 50px;
+}
+
+.horario{
+    max-width: 300px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.datos-contact{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact{
+    color: #e1c763;
+    text-decoration: underline;
+}
+
+.contacticon{
+    color: #e1c763;
+    font-size: 20px;
+}
+
+.icons-contact-s2{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.facebook, .instagram{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.enlaces{
+    text-decoration: none;
+    color: #fff;
+}
+
+.formu{
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 80vh;
+}
+
+.ingresoo, .salidaa{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    background-color: transparent;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #e1c763;
+    margin: 10px 15px 10px 0px;
+    color: #fff;
+    padding: 10px;
+}
+
+input::placeholder{
+    color: #fff;
+}
+
+#mensaje{
+    background-color: transparent;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #e1c763;
+    margin: 10px 15px 10px 0px;
+    color: #fff;
+    padding: 10px;
+    width: 94%;
+    grid-column: 1 / 3;
+    resize: none;
+}
+
+#mensaje::placeholder{
+    color: #fff;
+}
+
+#subb{
+    cursor: pointer;
+    width: 150px;
+}
+
+.formulario{
+    height: 100vh;
+}
+
+.capaContainer{
+    width: max-content;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.h2{
+    margin-bottom: 10px;
+}
+
+#map{
+    border: 2px solid #e1c763;
+    border-radius: 0;
+    height: 400px;
+    width: 80%;
+    margin: auto;
+}
+
+.footer{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.suscripcion{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid #e1c763;
+    border-radius: 10px;
+    padding: 10px;
+    width: 80%;
+}
+
+#emailinput{
+    border: none;
+    padding: 0;
+}
+
+.correobtn{
+    color: #fff;
+}
+
+@media screen and (max-width: 912px) {
+    .seccion-contact-1{
+        position: relative;
+        top: 50px;
+    }
+
+    .capas1{
+        justify-content: center;
+    }
+
+    .seccion-contact-2{
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+    }
+
+    .formulario{
+        width: 80%;
+        margin: auto;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .formu{
+        display: flex;
+        flex-direction: column;
+    } 
+
+    #mensaje{
+        box-sizing: border-box;
+        width: auto;
+    }
+
+    #map{
+        margin-top: 50px;
+    }
+
+    .capaContainer{
+        width: auto;
+    }
+
+    #emailinput{
+        margin-right: 0;
+    }
+
+    .logo{
+        object-fit: cover;
+        width: 100%;
+    }
+}
