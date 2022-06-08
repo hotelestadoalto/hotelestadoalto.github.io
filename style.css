@@ -579,4 +579,8 @@ body{
     .serviciosIconos{
         margin-bottom: 5px;
     }
+    
+    #emailinput{
+        font-size: 90%;
+    }
 }
